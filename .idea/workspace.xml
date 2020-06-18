@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fba6c501-39fb-4be0-a7f4-7ca1a40f58e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cryptpic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="hc51j32c" />
+  </component>
+  <component name="ProjectId" id="1dTGhv91oLf15buIHVQL4lzEvNA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fba6c501-39fb-4be0-a7f4-7ca1a40f58e6" name="Default Changelist" comment="" />
+      <created>1592441791043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592441791043</updated>
+      <workItem from="1592441793164" duration="673000" />
+      <workItem from="1592442563136" duration="1339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2857" y="906" key="#SSH_Configurations" timestamp="1592442321774">
+      <screen x="2560" y="0" width="1440" height="2533" />
+    </state>
+    <state x="2857" y="906" key="#SSH_Configurations/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442321774" />
+    <state x="3160" y="1159" key="Github.ShareDialog" timestamp="1592444705811">
+      <screen x="2560" y="0" width="1440" height="2533" />
+    </state>
+    <state x="3160" y="1159" key="Github.ShareDialog/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592444705811" />
+    <state x="3109" y="964" key="Github.UntrackedFilesDialog" timestamp="1592444731003">
+      <screen x="2560" y="0" width="1440" height="2533" />
+    </state>
+    <state x="3109" y="964" key="Github.UntrackedFilesDialog/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592444731003" />
+    <state width="1397" height="770" key="GridCell.Tab.0.bottom" timestamp="1592442465701">
+      <screen x="2560" y="0" width="1440" height="2533" />
+    </state>
+    <state width="1397" height="770" key="GridCell.Tab.0.bottom/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442465701" />
+    <state width="1397" height="770" key="GridCell.Tab.0.center" timestamp="1592442465701">
+      <screen x="2560" y="0" width="1440" height="2533" />
+    </state>
+    <state width="1397" height="770" key="GridCell.Tab.0.center/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442465701" />
+    <state width="1397" height="770" key="GridCell.Tab.0.left" timestamp="1592442465701">
+      <screen x="2560" y="0" width="1440" height="2533" />
+    </state>
+    <state width="1397" height="770" key="GridCell.Tab.0.left/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442465700" />
+    <state width="1397" height="770" key="GridCell.Tab.0.right" timestamp="1592442465701">
+      <screen x="2560" y="0" width="1440" height="2533" />
+    </state>
+    <state width="1397" height="770" key="GridCell.Tab.0.right/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442465701" />
+    <state x="2782" y="906" key="SettingsEditor" timestamp="1592442462397">
+      <screen x="2560" y="0" width="1440" height="2533" />
+    </state>
+    <state x="2782" y="906" key="SettingsEditor/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442462397" />
+    <state x="3090" y="1175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592444492888">
+      <screen x="2560" y="0" width="1440" height="2533" />
+    </state>
+    <state x="3090" y="1175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592444492888" />
+  </component>
+</project>
