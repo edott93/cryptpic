@@ -14,26 +14,19 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba6c501-39fb-4be0-a7f4-7ca1a40f58e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/cryptpic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    <list default="true" id="fba6c501-39fb-4be0-a7f4-7ca1a40f58e6" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/chunk.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chunk_type.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +35,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,16 +55,126 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RunManager" selected="Cargo.Test chunk_type::tests">
+    <configuration name="Test chunk_type::chunk_type::tests::test_chunk_type_from_bytes" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package cryptpic --bin cryptpic chunk_type::chunk_type::tests::test_chunk_type_from_bytes -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test chunk_type::chunk_type::tests::test_chunk_type_from_str" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package cryptpic --bin cryptpic chunk_type::chunk_type::tests::test_chunk_type_from_str -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test chunk_type::chunk_type::tests::test_chunk_type_trait_impls" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package cryptpic --bin cryptpic chunk_type::chunk_type::tests::test_chunk_type_trait_impls -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test chunk_type::chunk_type::tests::test_invalid_chunk_is_valid" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --package cryptpic --bin cryptpic chunk_type::chunk_type::tests::test_invalid_chunk_is_valid -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="FULL" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test chunk_type::chunk_type::tests::test_valid_chunk_is_valid" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package cryptpic --bin cryptpic chunk_type::chunk_type::tests::test_valid_chunk_is_valid -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test chunk_type::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package cryptpic --bin cryptpic chunk_type::chunk_type::tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Test chunk_type::tests" />
+        <item itemvalue="Cargo.Test chunk_type::chunk_type::tests::test_chunk_type_trait_impls" />
+        <item itemvalue="Cargo.Test chunk_type::chunk_type::tests::test_chunk_type_from_bytes" />
+        <item itemvalue="Cargo.Test chunk_type::chunk_type::tests::test_chunk_type_from_str" />
+        <item itemvalue="Cargo.Test chunk_type::chunk_type::tests::test_valid_chunk_is_valid" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
     <option name="version" value="2" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -76,12 +186,40 @@
       <option name="presentableId" value="Default" />
       <updated>1592441791043</updated>
       <workItem from="1592441793164" duration="673000" />
-      <workItem from="1592442563136" duration="1339000" />
+      <workItem from="1592442563136" duration="2446000" />
+      <workItem from="1592451699599" duration="647000" />
+      <workItem from="1592782788998" duration="9623000" />
+      <workItem from="1597358296141" duration="19000" />
+      <workItem from="1597358348018" duration="77000" />
+      <workItem from="1597358603432" duration="3083000" />
+      <workItem from="1607481701298" duration="59000" />
+      <workItem from="1607481917208" duration="273000" />
+      <workItem from="1607482248574" duration="41000" />
+      <workItem from="1608489939649" duration="42000" />
+      <workItem from="1608489994916" duration="3263000" />
+      <workItem from="1617423262962" duration="114000" />
+      <workItem from="1620355283627" duration="35000" />
+      <workItem from="1620355349428" duration="1128000" />
+      <workItem from="1620358073339" duration="1198000" />
+      <workItem from="1624124913104" duration="27000" />
+      <workItem from="1624124984290" duration="500000" />
+      <workItem from="1624857224854" duration="725000" />
+      <workItem from="1624859078378" duration="901000" />
+      <workItem from="1625877703229" duration="15000" />
+      <workItem from="1625877761186" duration="17980000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1592445193660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592445193660</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -95,42 +233,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2857" y="906" key="#SSH_Configurations" timestamp="1592442321774">
-      <screen x="2560" y="0" width="1440" height="2533" />
-    </state>
-    <state x="2857" y="906" key="#SSH_Configurations/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442321774" />
-    <state x="3160" y="1159" key="Github.ShareDialog" timestamp="1592444705811">
-      <screen x="2560" y="0" width="1440" height="2533" />
-    </state>
-    <state x="3160" y="1159" key="Github.ShareDialog/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592444705811" />
-    <state x="3109" y="964" key="Github.UntrackedFilesDialog" timestamp="1592444731003">
-      <screen x="2560" y="0" width="1440" height="2533" />
-    </state>
-    <state x="3109" y="964" key="Github.UntrackedFilesDialog/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592444731003" />
-    <state width="1397" height="770" key="GridCell.Tab.0.bottom" timestamp="1592442465701">
-      <screen x="2560" y="0" width="1440" height="2533" />
-    </state>
-    <state width="1397" height="770" key="GridCell.Tab.0.bottom/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442465701" />
-    <state width="1397" height="770" key="GridCell.Tab.0.center" timestamp="1592442465701">
-      <screen x="2560" y="0" width="1440" height="2533" />
-    </state>
-    <state width="1397" height="770" key="GridCell.Tab.0.center/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442465701" />
-    <state width="1397" height="770" key="GridCell.Tab.0.left" timestamp="1592442465701">
-      <screen x="2560" y="0" width="1440" height="2533" />
-    </state>
-    <state width="1397" height="770" key="GridCell.Tab.0.left/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442465700" />
-    <state width="1397" height="770" key="GridCell.Tab.0.right" timestamp="1592442465701">
-      <screen x="2560" y="0" width="1440" height="2533" />
-    </state>
-    <state width="1397" height="770" key="GridCell.Tab.0.right/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442465701" />
-    <state x="2782" y="906" key="SettingsEditor" timestamp="1592442462397">
-      <screen x="2560" y="0" width="1440" height="2533" />
-    </state>
-    <state x="2782" y="906" key="SettingsEditor/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592442462397" />
-    <state x="3090" y="1175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592444492888">
-      <screen x="2560" y="0" width="1440" height="2533" />
-    </state>
-    <state x="3090" y="1175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.1440.2533/0.0.2560.1400@2560.0.1440.2533" timestamp="1592444492888" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
